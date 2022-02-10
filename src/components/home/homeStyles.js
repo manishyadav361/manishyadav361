@@ -1,5 +1,4 @@
 import { makeStyles } from "@material-ui/core";
-import Image from "../Desktop - 1.jpg";
 export default makeStyles((theme) => ({
   container: {
     padding: "0",

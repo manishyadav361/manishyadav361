@@ -65,14 +65,14 @@ export default makeStyles((theme) => ({
   },
 
   div1: {
-    width: "100%",
+    minWidth: "100%",
     height: "30px",
     background: "rgba(0,0,0,0.4)",
     borderRadius: "5px  5px",
   },
   div2: {
     height: "30px",
-    width: "100%",
+    minWidth: "100%",
     background: "rgba(0,0,0,0.8)",
     position: "absolute",
     // zIndex: "10",
@@ -118,6 +118,30 @@ export default makeStyles((theme) => ({
     },
     [theme.breakpoints.up("md")]: {
       marginLeft: "20px",
+    },
+  },
+  image: {
+    width: "100%",
+    height: "100%",
+    marginBottom: "10px",
+  },
+  skill: {
+    width: "80px",
+    objectFit: "contain",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "spaace-between",
+    margin: "10px",
+    marginRight: "20px",
+  },
+  skillSet: {
+    display: "flex",
+    flexWrap: "wrap",
+    width: "100%",
+    justifyContent: "space-between",
+    [theme.breakpoints.up("md")]: {
+      width: "60%",
     },
   },
 }));

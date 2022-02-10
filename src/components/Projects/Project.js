@@ -2,7 +2,6 @@ import { Box, Typography } from "@material-ui/core";
 import React from "react";
 import useStyles from "./projectStyles";
 import InsertLinkIcon from "@material-ui/icons/InsertLink";
-
 function Project({ image, text, link }) {
   const classes = useStyles();
   const [visible, setVisible] = React.useState(false);
