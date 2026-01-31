@@ -5,7 +5,8 @@ import useStyles from "./projectStyles";
 import maniacs from "../images/2021-09-21.png";
 import airbnb from "../images/airbnb.png";
 import twitter from "../images/twitter.png";
-import reactQueryPagination from "../images/react_query_pagination.png";
+// Temporarily using twitter image as placeholder until we get a proper screenshot
+const reactQueryPagination = twitter;
 function Projects() {
   const classes = useStyles();
 
