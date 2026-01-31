@@ -5,6 +5,7 @@ import useStyles from "./projectStyles";
 import maniacs from "../images/2021-09-21.png";
 import airbnb from "../images/airbnb.png";
 import twitter from "../images/twitter.png";
+import reactQueryPagination from "../images/react_query_pagination.png";
 function Projects() {
   const classes = useStyles();
 
@@ -31,6 +32,11 @@ function Projects() {
           image={twitter}
           link="https://0vuzm.csb.app/"
           text="Twitter Clone UI"
+        />
+        <Project
+          image={reactQueryPagination}
+          link="https://github.com/manishyadav361/react-query-pagination"
+          text="React Query Pagination - Modern Data Grid"
         />
       </Box>
     </Container>
