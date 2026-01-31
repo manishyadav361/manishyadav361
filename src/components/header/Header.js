@@ -11,7 +11,7 @@ function Header() {
     setToggle(!toggle);
   };
   React.useEffect(() => {
-    if (window.screenTop == 2) {
+    if (window.screenTop === 2) {
       console.log(window.screenTop);
     }
   }, []);
